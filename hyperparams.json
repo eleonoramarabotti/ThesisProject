@@ -1,0 +1,443 @@
+{
+    "ODI": {
+        "LogisticRegression": {
+            "balanced_accuracy": {
+                "C": 0.001,
+                "penalty": "l2"
+            },
+            "net_benefit25": {
+                "C": 0.04918952406375637,
+                "penalty": "l1"
+            },
+            "net_benefit50": {
+                "C": 0.19000577985314912,
+                "penalty": "l1"
+            },
+            "net_benefit75": {
+                "C": 0.06597302432392146,
+                "penalty": "l1"
+            },
+            "net_benefitMean": {
+                "C": 0.001,
+                "penalty": "l2"
+            },
+            "weighted_utility": {
+                "C": 0.001,
+                "penalty": "l2"
+            }
+        },
+
+        "SVM": {
+            "balanced_accuracy": {
+                "C": 0.001,
+                "kernel": "linear"
+            },
+            "net_benefit25": {
+                "C": 0.001,
+                "kernel": "linear"
+            },
+            "net_benefit50": {
+                "C": 0.001,
+                "kernel": "linear"
+            },
+            "net_benefit75": {
+                "C": 0.001,
+                "kernel": "linear"
+            },
+            "net_benefitMean": {
+                "C": 0.001,
+                "kernel": "linear"
+            },
+            "weighted_utility": {
+                "C": 0.001,
+                "kernel": "linear"
+            }
+        },
+
+        "XGB": {
+            "balanced_accuracy": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            },
+            "net_benefit25": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            },
+            "net_benefit50": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            },
+            "net_benefit75": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            },
+            "net_benefitMean": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            },
+            "weighted_utility": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            }
+        },
+
+        "RandomForest": {
+            "balanced_accuracy": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            },
+            "net_benefit25": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            },
+            "net_benefit50": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            },
+            "net_benefit75": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            },
+            "net_benefitMean": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            },
+            "weighted_utility": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            }
+        }
+        
+    },
+
+    "COMI": {
+        "LogisticRegression": {
+            "balanced_accuracy": {
+                "C": 0.001,
+                "penalty": "l1"
+            },
+            "net_benefit25": {
+                "C": 0.01639260232439013,
+                "penalty": "l1"
+            },
+            "net_benefit50": {
+                "C": 0.03012013228414587,
+                "penalty": "l1"
+            },
+            "net_benefit75": {
+                "C": 0.03822708876409671,
+                "penalty": "l1"
+            },
+            "net_benefitMean": {
+                "C": 0.001,
+                "penalty": "l2"
+            },
+            "weighted_utility": {
+                "C": 0.001,
+                "penalty": "l2"
+            }
+        },
+
+        "SVM": {
+            "balanced_accuracy": {
+                "C": 0.001,
+                "kernel": "linear"
+            },
+            "net_benefit25": {
+                "C": 0.001,
+                "kernel": "linear"
+            },
+            "net_benefit50": {
+                "C": 0.001,
+                "kernel": "linear"
+            },
+            "net_benefit75": {
+                "C": 0.001,
+                "kernel": "linear"
+            },
+            "net_benefitMean": {
+                "C": 0.001,
+                "kernel": "linear"
+            },
+            "weighted_utility": {
+                "C": 0.001,
+                "kernel": "linear"
+            }
+        },
+
+        "XGB": {
+            "balanced_accuracy": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            },
+            "net_benefit25": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            },
+            "net_benefit50": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            },
+            "net_benefit75": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            },
+            "net_benefitMean": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            },
+            "weighted_utility": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            }
+        },
+
+        "RandomForest": {
+            "balanced_accuracy": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            },
+            "net_benefit25": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            },
+            "net_benefit50": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            },
+            "net_benefit75": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            },
+            "net_benefitMean": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            },
+            "weighted_utility": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            }
+        }
+        
+    },
+
+    "SF36": {
+        "LogisticRegression": {
+            "balanced_accuracy": {
+                "C": 0.001,
+                "penalty": "l2"
+            },
+            "net_benefit25": {
+                "C": 0.10244363199787768,
+                "penalty": "l1"
+            },
+            "net_benefit50": {
+                "C": 0.04827547190106067,
+                "penalty": "l1"
+            },
+            "net_benefit75": {
+                "C": 0.2665136718103469,
+                "penalty": "l1"
+            },
+            "net_benefitMean": {
+                "C": 0.001,
+                "penalty": "l2"
+            },
+            "weighted_utility": {
+                "C": 0.001,
+                "penalty": "l2"
+            }
+        },
+
+        "SVM": {
+            "balanced_accuracy": {
+                "C": 0.001,
+                "kernel": "linear"
+            },
+            "net_benefit25": {
+                "C": 0.001,
+                "kernel": "linear"
+            },
+            "net_benefit50": {
+                "C": 0.001,
+                "kernel": "linear"
+            },
+            "net_benefit75": {
+                "C": 0.001,
+                "kernel": "linear"
+            },
+            "net_benefitMean": {
+                "C": 0.001,
+                "kernel": "linear"
+            },
+            "weighted_utility": {
+                "C": 0.001,
+                "kernel": "linear"
+            }
+        },
+
+        "XGB": {
+            "balanced_accuracy": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            },
+            "net_benefit25": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            },
+            "net_benefit50": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            },
+            "net_benefit75": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            },
+            "net_benefitMean": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            },
+            "weighted_utility": {
+                "learning_rate": 0.029375044656131066,
+                "max_depth": 3,
+                "n_estimators": 282,
+                "subsample": 0.7526404617085523,
+                "colsample_bytree": 0.8553736671968517
+            }
+        },
+
+        "RandomForest": {
+            "balanced_accuracy": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            },
+            "net_benefit25": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            },
+            "net_benefit50": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            },
+            "net_benefit75": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            },
+            "net_benefitMean": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            },
+            "weighted_utility": {
+                "max_depth": 5,
+                "n_estimators": 100,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "max_features": "sqrt"
+            }
+        }
+        
+    }
+}
+
